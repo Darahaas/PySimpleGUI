@@ -1080,7 +1080,7 @@ class Multiline(Element):
 
 
     def Get(self):
-        self.WxTextCtrl.GetValue()
+        return self.WxTextCtrl.GetValue()
 
     def SetFocus(self):
         self.WxTextCtrl.SetFocus()
